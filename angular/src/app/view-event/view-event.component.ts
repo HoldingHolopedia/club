@@ -4,8 +4,6 @@ import { Event } from '../entity/event/event.model';
 import { EventFirebaseService } from '../event-firebase.service';
 import { UserFirebaseService } from '../user-firebase.service';
 import { MatDialog } from '@angular/material';
-import { ConfirmationDialogComponent } from '../confirmation-dialog/confirmation-dialog.component';
-import { unescapeIdentifier } from '@angular/compiler';
 import { MobileDetectorService } from '../mobile-detector.service';
 import { AuthService } from '../auth.service';
 import { User } from '../entity/user/user';
@@ -14,7 +12,6 @@ import { Wall } from '../entity/wall/wall.model';
 import { WallPost } from '../entity/wall/wall-post.model';
 import { CreateWallPostComponent } from '../create-wall-post/create-wall-post.component';
 import { ToastrService } from 'ngx-toastr';
-import { NewEventComponent } from '../events/new-event/new-event.component';
 import { CreateNewEventComponent } from '../create-new-event/create-new-event.component';
 import { RatingService } from '../rating.service';
 
